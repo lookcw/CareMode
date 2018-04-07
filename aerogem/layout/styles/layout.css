@@ -230,12 +230,12 @@ td{border-width:0 1px;}
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#676767; background-color:#222222;}
 a{color:#F4BF4F;}
-a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
+a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - preve2ts grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#F4BF4F;}
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.2);}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#F4BF4F; border-color:#F4BF4F;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
@@ -244,7 +244,7 @@ blockquote::before{color:rgba(0,0,0,.05);}
 
 
 /* Rows */
-.row0, .row0 a{color:#CBCBCB; background-color:#333333;}
+.row0, .row0 a{color:#FBFBFB; background-color:#090D4D;}
 .row1{color:#FFFFFF;}
 .row2{color:#474747; background-color:#FFFFFF; border-color:#F7F7F7;}
 .row3{color:#474747; background-color:#FFFFFF;}
@@ -253,13 +253,13 @@ blockquote::before{color:rgba(0,0,0,.05);}
 
 
 /* Top Bar */
-#topbar ul li{border-color:rgba(255,255,255,.2);}
-#topbar > div:last-of-type li:first-child a{color:#F4BF4F;}
+#topbar ul li{border-color:rgba(255,255,255,1);}
+#topbar > div:last-of-type li:first-child a{color:#FBFBFB;}
 
 
 /* Header */
 .wrapper.row1::before{background:transparent; border-color:transparent; border-bottom-color:#FFFFFF;}
-#header{color:inherit; background-color:rgba(0,0,0,.65);}
+#header{color:inherit; background-color:rgba(9,13,77,.85);}
 #header #logo a{color:inherit;}
 
 
