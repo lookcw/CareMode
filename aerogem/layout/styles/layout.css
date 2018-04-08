@@ -264,7 +264,7 @@ blockquote::before{color:rgba(0,0,0,.05);}
 
 
 /* Content Area */
-.latest figcaption{color:#CBCBCB; background-color:#222222;}
+.latest figcaption{color:#CBCBCB; background-color:#000000;}
 .latest .postexcerpt{border-color:#D7D7D7;}
 .latest .postexcerpt:hover{color:inherit; background-color:#F7F7F7;}
 
