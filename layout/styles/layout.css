@@ -244,7 +244,7 @@ blockquote::before{color:rgba(0,0,0,.05);}
 
 
 /* Rows */
-.row0, .row0 a{color:#FBFBFB; background-color:#090D4D;}
+.row0, .row0 a{color:#FBFBFB; background-color:#51A373;}
 .row1{color:#FFFFFF;}
 .row2{color:#474747; background-color:#FFFFFF; border-color:#F7F7F7;}
 .row3{color:#474747; background-color:#FFFFFF;}
@@ -259,7 +259,7 @@ blockquote::before{color:rgba(0,0,0,.05);}
 
 /* Header */
 .wrapper.row1::before{background:transparent; border-color:transparent; border-bottom-color:#FFFFFF;}
-#header{color:inherit; background-color:rgba(9,13,77,.85);}
+#header{color:inherit; background-color:rgba(81,163,115,.85);}
 #header #logo a{color:inherit;}
 
 
